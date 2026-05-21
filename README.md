@@ -54,7 +54,6 @@ mfa_security_system
 └── MfaSecuritySystemApplication.java
 ```
 
-```
 # 🔄 System Architecture Flow
 User Register
 ↓
