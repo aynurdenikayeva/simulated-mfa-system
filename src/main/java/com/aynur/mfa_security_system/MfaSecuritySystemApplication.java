@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MfaSecuritySystemApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MfaSecuritySystemApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(MfaSecuritySystemApplication.class, args);
+    }
 }
