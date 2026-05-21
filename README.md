@@ -69,6 +69,7 @@ OTP Sent (Console Simulation)
 OTP Verification (/mfa/verify)
 ↓
 Access Granted
+```
 
 ---
 
