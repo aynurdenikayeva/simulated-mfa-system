@@ -35,22 +35,24 @@ This project simulates **enterprise-level security architecture** with step-up a
 ---
 
 # 📁 Project Structure
+```text
 mfa_security_system
--│
--├── config
--├── controller
--├── dto
--│ ├── request
--│ └── response
--├── entity
--├── enums
--├── exception
--├── mapper
--├── repository
--├── security
--├── service
--├── util
--└── MfaSecuritySystemApplication.java
+│
+├── config
+├── controller
+├── dto
+│   ├── request
+│   └── response
+├── entity
+├── enums
+├── exception
+├── mapper
+├── repository
+├── security
+├── service
+├── util
+└── MfaSecuritySystemApplication.java
+```
 
 ---
 
