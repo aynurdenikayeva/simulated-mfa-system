@@ -54,8 +54,6 @@ mfa_security_system
 └── MfaSecuritySystemApplication.java
 ```
 
----
-
 # 🔄 System Architecture Flow
 User Register
 ↓
@@ -103,12 +101,14 @@ Access Granted
 /users/me<img width="906" height="703" alt="UserEndpoint" src="https://github.com/user-attachments/assets/3303318f-b2f0-4360-a557-151c768c193b" />
 
 ## 🧪 Testing Flow (Postman)
+```text
 Register user → /auth/register
 Login → /auth/login → get JWT
 Call /mfa/generate
 Check console OTP
 Call /mfa/verify
 Access /users/me
+```
 ## 👨‍💻 Author
 Aynur D.
 
