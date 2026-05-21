@@ -1,25 +1,33 @@
 package com.aynur.mfa_security_system.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-
+import com.aynur.mfa_security_system.enums.MfaAction;
+import jakarta.persistence.*;
+import lombok.*;
 import java.time.LocalDateTime;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class OtpCode {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String code;
-
-    private Long userId;
-
-    private String action;
 
     private LocalDateTime expiresAt;
 
     private boolean used;
 
     private int attempts;
+
+    @Enumerated(EnumType.STRING)
+    private MfaAction action;
+
+    @ManyToOne
+    private User user;
 }
