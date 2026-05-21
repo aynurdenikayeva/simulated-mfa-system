@@ -55,6 +55,7 @@ mfa_security_system
 ```
 
 # 🔄 System Architecture Flow
+```text
 User Register
 ↓
 User Login (JWT generated)
